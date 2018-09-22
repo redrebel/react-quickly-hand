@@ -1,0 +1,22 @@
+{
+  "name": "ch04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-clock": "babel clock/jsx -d clock/js -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+ 
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
