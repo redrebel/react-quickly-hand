@@ -1,0 +1,23 @@
+{
+  "name": "ch05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "babel":{
+    "presets": [
+      "react"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-logger": "./node_modules/.bin/babel logger/jsx -d logger/js -w",
+    "build-users": "./node_modules/.bin/babel users/jsx -d users/js -w",
+    "build-note": "./node_modules/.bin/babel note/jsx -d note/js -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
